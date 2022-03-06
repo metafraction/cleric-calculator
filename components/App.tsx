@@ -1,34 +1,25 @@
-import React from "react";
+import React, { useReducer } from "react";
 import { ethers, BigNumber } from "ethers";
+import { RGThemeProvider } from "@raidguild/design-system";
 import Pledge from "./Pledge";
+import initialState from "../state/initialState";
+import reducer from "../state/reducer";
 
-class App extends React.Component<any, any> {
-  // @ts-ignore
+const App: React.FC = () => {
+  const [state, dispatch] = useReducer(reducer, initialState);
+  const setAmount = (a: string) => {
+    console.log("amount");
+  };
 
-  constructor(props: any) {
-    super(props);
-  }
+  const setShares = (s: string) => {
+    console.log("shares");
+  };
 
-  public setAmount(a: string) {
-    console.log('amount');
-  }
+  return (
+    <RGThemeProvider>
+      <Pledge />
+    </RGThemeProvider>
+  );
+};
 
-  public setShares(s: string) {
-    console.log('shares');
-  }
-
-  render() {
-    const actions = {
-      setAmount: (a: string) => this.setAmount(a),
-      setShares: (s: string) => this.setShares(s),
-    };
-    return (
-      <>
-        <Pledge
-          actions={actions}
-        />
-      </>
-    );
-  }
-}
 export default App;

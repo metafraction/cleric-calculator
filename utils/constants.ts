@@ -1,5 +1,6 @@
 export const specificationOptions = [
   {
+    key: "detailed_spec",
     title: "Detailed Specification",
     description: "",
     hours: 10,
@@ -8,6 +9,7 @@ export const specificationOptions = [
     max_timeline: 2,
   },
   {
+    key: "simple_token",
     title: "Simple Token & Incentive",
     description: "",
     hours: 30,
@@ -16,6 +18,7 @@ export const specificationOptions = [
     max_timeline: 5,
   },
   {
+    key: "decent_token",
     title: "Decent Token & Incentive",
     description: "",
     hours: 65,
@@ -24,6 +27,7 @@ export const specificationOptions = [
     max_timeline: 7,
   },
   {
+    key: "complex_token",
     title: "Complex Token & Incentive",
     description: "",
     hours: 100,
@@ -32,6 +36,7 @@ export const specificationOptions = [
     max_timeline: 0,
   },
   {
+    key: "token_simulation",
     title: "Tokenomics Simulation",
     description: "",
     hours: 50,
@@ -40,6 +45,7 @@ export const specificationOptions = [
     max_timeline: 5,
   },
   {
+    key: "go_to_market",
     title: "Go-to-market strategy",
     description: "",
     hours: 30,
@@ -48,6 +54,7 @@ export const specificationOptions = [
     max_timeline: 5,
   },
   {
+    key: "business_model",
     title: "Business model, sustainability, or value capture strategy",
     description: "",
     hours: 40,
@@ -59,6 +66,7 @@ export const specificationOptions = [
 
 export const contentOptions = [
   {
+    key: "light_content",
     title: "Light application content",
     description: "",
     hours: 20,
@@ -67,6 +75,7 @@ export const contentOptions = [
     max_timeline: 4,
   },
   {
+    key: "heavy_content",
     title: "Heavy application content and documentation",
     description: "",
     hours: 50,
@@ -75,6 +84,7 @@ export const contentOptions = [
     max_timeline: 6,
   },
   {
+    key: "marketing_article",
     title: "Marketing article releases",
     description: "",
     hours: 10,
@@ -83,6 +93,7 @@ export const contentOptions = [
     max_timeline: 2,
   },
   {
+    key: "video_sizzlers",
     title: "Video Sizzlers",
     description: "",
     hours: 50,
@@ -91,6 +102,7 @@ export const contentOptions = [
     max_timeline: 7,
   },
   {
+    key: "content_management",
     title: "Content Management System",
     description: "",
     hours: 35,

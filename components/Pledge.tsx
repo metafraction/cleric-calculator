@@ -1,17 +1,13 @@
-const Pledge: React.FC<> = ({}) => {
+import { ChakraInput } from "@raidguild/design-system";
+
+const Pledge: React.FC = ({}) => {
   return (
     <div>
       <div>
-        <input
-          type="number"
-          placeholder="Amount (DAI)"
-        />
+        <ChakraInput type="number" placeholder="Amount (DAI)" />
       </div>
       <div>
-        <input
-          type="number"
-          placeholder="Amount (DAI)"
-        />
+        <ChakraInput type="number" placeholder="Amount (DAI)" />
       </div>
     </div>
   );
