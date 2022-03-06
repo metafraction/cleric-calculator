@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import App from '../components/App'
 
-const Index: React.FC<any> = ({ data, statusData, graphData }) => {
+const Index: React.FC<any> = ({}) => {
   return (
     <>
       <Head>
@@ -11,7 +11,7 @@ const Index: React.FC<any> = ({ data, statusData, graphData }) => {
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta httpEquiv="Content-Security-Policy" content="connect-src ws: wss: https: http:" />
       </Head>
-      <App data={data} statusData={statusData} graphData={graphData} />
+      <App />
     </>
   );
 }
