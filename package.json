@@ -8,6 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/uncial-antiqua": "^4.5.3",
     "@raidguild/design-system": "^0.2.16",
     "ethers": "^5.5.4",
     "lodash": "^4.17.21",
