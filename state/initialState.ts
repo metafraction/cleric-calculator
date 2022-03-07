@@ -1,14 +1,10 @@
+import _ from "lodash";
+import { allOptions } from "../utils/constants";
+
 const initialState = {
-  spec: {
-    detailed_spec: false,
-    simple_token: false,
-    decent_token: false,
-    complex_token: false,
-    token_simulation: false,
-    go_to_market: false,
-    business_model: false,
-  },
-  content: {},
+  options: allOptions,
+  error: null,
+  loading: false,
 };
 
 export default initialState;

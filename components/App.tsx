@@ -1,7 +1,7 @@
 import React, { useReducer } from "react";
 import { ethers, BigNumber } from "ethers";
 import { RGThemeProvider } from "@raidguild/design-system";
-import Pledge from "./Pledge";
+import CalculatorForm from "./CalculatorForm";
 import initialState from "../state/initialState";
 import reducer from "../state/reducer";
 
@@ -17,7 +17,7 @@ const App: React.FC = () => {
 
   return (
     <RGThemeProvider>
-      <Pledge />
+      <CalculatorForm state={state} dispatch={dispatch} />
     </RGThemeProvider>
   );
 };
